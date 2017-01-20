@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    console.log('ready');
+    console.log('index.js is ready');
 
     var container = $('.articles-container');
 
@@ -58,8 +58,7 @@ $(document).ready(function(){
         container.append(article);
     }
 
-    show(2);
-    show(1);
+    // show(1);
     
 
 });
